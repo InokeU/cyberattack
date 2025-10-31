@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+.title {
+    text-align: center;
+    background-color: hsl(0, 39%, 83%);
+    padding: 10px;
+}
+.ban_image {
+    text-align: center;
+}
+.navbar {
+    text-align: center;
+}
+
+.image_1 {
+
+}
