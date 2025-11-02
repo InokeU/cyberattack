@@ -33,11 +33,10 @@ a {
     grid-template-areas:
     "title title"
     "navbar navbar"
-    "ban_image ban_image"
     "heading_1 heading_1"
-    "paragraph_1 image_1"
-    "heading_2 heading_2"
-    "image_2 paragraph_2"
+    "paragraph_1 paragraph_1"
+    "video video"
+    "paragraph_2 paragraph_2"
     "footer footer";
 }
 
@@ -45,13 +44,6 @@ a {
     grid-area: title;
     text-align: center;
     background-color: #1c2321;
-}
-
-.ban_image {
-    grid-area: ban_image;
-    text-align: center;
-    height: 450px;
-    background-color: #a9b4c2;
 }
 
 .navbar {
@@ -65,10 +57,9 @@ a {
     padding: 10px;
 }
 
-.image_1 {
-    grid-area: image_1;
-    float: right;
-    height: 350px;
+.video {
+    grid-area: video;
+    float: left;
     background-color: #a9b4c2;
 
 }
@@ -87,25 +78,15 @@ a {
     font-size: large;
 }
 
-.heading_2 {
-    grid-area: heading_2;
-    float: right;
-    text-align: center;
-    background-color: #5E6572;
-}
-
-.image_2 {
-    grid-area: image_2;
-    float: left;
-    height: 400px;
-    background-color: #a9b4c2;
-}
-
 .paragraph_2 {
     grid-area: paragraph_2;
-    float: right;
+    float: left;
     background-color: #a9b4c2;
     font-size: large;
+}
+
+.paragraph_2 p {
+    text-align: center;
 }
 
 .footer {
