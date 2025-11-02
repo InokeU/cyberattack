@@ -9,7 +9,7 @@ img {
 
 p {
     color: rgb(35, 0, 0);
-    font-family: courier, sans-serif
+    font-family: courier, sans-serif;
 }
 
 h2 {
@@ -17,11 +17,12 @@ h2 {
 }
 
 h1 {
-    font-family: courier, sans-serif
+    font-family: courier, sans-serif;
 }
 
 a {
-    font-family: courier, sans-serif
+    font-family: courier, sans-serif;
+    color: black;
 }
 
 
