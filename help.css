@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-color: #a9b4c2;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    color: rgb(35, 0, 0);
+    font-family: courier, sans-serif;
+}
+
+h2 {
+    font-family: courier, sans-serif;
+}
+
+h1 {
+    font-family: courier, sans-serif;
+}
+
+a {
+    font-family: courier, sans-serif;
+    color: black;
+}
+
+
+.container {
+    display: grid;
+    grid-template: 1fr 1fr;
+    grid-template-columns: auto;
+    grid-template-areas:
+    "title title"
+    "navbar navbar"
+    "ban_image ban_image"
+    "heading_1 heading_1"
+    "paragraph_1 image_1"
+    "heading_2 heading_2"
+    "image_2 paragraph_2"
+    "footer footer";
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+    background-color: #1c2321;
+}
+
+.ban_image {
+    grid-area: ban_image;
+    text-align: center;
+    height: 450px;
+    background-color: #a9b4c2;
+}
+
+.navbar {
+    grid-area: navbar;
+    text-align: center;
+    background-color: #5e6572;
+    padding: 10px;
+}
+
+.navbar a {
+    padding: 10px;
+}
+
+.image_1 {
+    grid-area: image_1;
+    float: right;
+    height: 350px;
+    background-color: #a9b4c2;
+
+}
+
+.heading_1 {
+    grid-area: heading_1;
+    float: left;
+    text-align: center;
+    background-color:#5e6572;
+}
+
+.paragraph_1 {
+    grid-area: paragraph_1;
+    float: left;
+    background-color: #a9b4c2;
+    font-size: large;
+}
+
+.heading_2 {
+    grid-area: heading_2;
+    float: right;
+    text-align: center;
+    background-color: #5E6572;
+}
+
+.image_2 {
+    grid-area: image_2;
+    float: left;
+    height: 400px;
+    background-color: #a9b4c2;
+}
+
+.paragraph_2 {
+    grid-area: paragraph_2;
+    float: right;
+    background-color: #a9b4c2;
+    font-size: large;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #5E6572;
+    padding: 10px;
+    text-align: center;
+}
