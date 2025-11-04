@@ -89,6 +89,10 @@ a {
     text-align: center;
 }
 
+.paragraph_2 a {
+    padding: 10px;
+}
+
 .footer {
     grid-area: footer;
     background-color: #5E6572;
