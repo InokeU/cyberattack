@@ -28,8 +28,8 @@ a {
 
 .container {
     display: grid;
-    grid-template: 1fr 1fr;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
     grid-template-areas:
     "title title"
     "navbar navbar"
