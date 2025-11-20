@@ -41,13 +41,13 @@ a {
 .title {
     grid-area: title;
     text-align: center;
-    background-color: #1c2321;
+    background-color: #FFD3C5;
 }
 
 .navbar {
     grid-area: navbar;
     text-align: center;
-    background-color: #5e6572;
+    background-color: #ffab91;
     padding: 10px;
 }
 
@@ -58,26 +58,27 @@ a {
 .image_1 {
     grid-area: image_1;
     float: right;
-    background-color: #a9b4c2;
+    background-color: #FFD3C5;
     object-fit: cover;
 }
 
 .heading_1 {
     grid-area: heading_1;
     text-align: center;
-    background: color #1c6a84;
+    background-color: #ffa286;
+    padding-top: 10px;
 }
 
 .paragraph_1 {
     grid-area: paragraph_1;
     float: left;
-    background-color: #a9b4c2;
+    background-color: #FFD3C5;
     font-size: large;
 }
 
 .footer {
     grid-area: footer;
-    background-color: #5E6572;
+    background-color: #ffab91;
     padding: 10px;
     text-align: center;
 }
