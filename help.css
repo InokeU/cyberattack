@@ -88,17 +88,19 @@ a {
 
 .paragraph_2 {
     grid-area: paragraph_2;
-
 }
 
 .links {
     grid-area: links;
     background-color: #FFD3C5;
     font-size: large;
+    padding: 10px;
+    text-align: center;
 }
 
 .paragraph_2 p {
     text-align: center;
+    font-size: large;
 }
 
 .paragraph_2 a {
