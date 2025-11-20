@@ -36,7 +36,9 @@ a {
     "heading_1 heading_1"
     "paragraph_1 paragraph_1"
     "video video"
+    "heading_2 heading_2"
     "paragraph_2 paragraph_2"
+    "links links"
     "footer footer";
 }
 
@@ -78,9 +80,19 @@ a {
     font-size: large;
 }
 
+.heading_2 {
+    grid-area: heading_2;
+    text-align: center;
+    background-color:#ffab91;
+}
+
 .paragraph_2 {
     grid-area: paragraph_2;
-    float: left;
+
+}
+
+.links {
+    grid-area: links;
     background-color: #FFD3C5;
     font-size: large;
 }
