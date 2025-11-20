@@ -60,11 +60,11 @@ a {
     grid-area: navbar;
     text-align: center;
     background-color:  #ffab91;
-    padding: 10px;
+    padding: 10px
 }
 
 .navbar a {
-    padding: 10px;
+    padding: 20px;
 }
 
 .image_1 {
