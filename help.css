@@ -31,8 +31,8 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas:
-    "title title"
     "navbar navbar"
+    "title title"
     "heading_1 heading_1"
     "paragraph_1 paragraph_1"
     "video video"
