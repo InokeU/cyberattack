@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #a9b4c2;
+    background-color:  #FFD3C5;
 }
 
 img {
@@ -8,21 +8,23 @@ img {
 }
 
 p {
-    color: rgb(35, 0, 0);
+    color: black;
     font-family: courier, sans-serif;
 }
 
 h2 {
     font-family: courier, sans-serif;
+     color: black;
 }
 
 h1 {
     font-family: courier, sans-serif;
+    color: #000000;
 }
 
 a {
     font-family: courier, sans-serif;
-    color: black;
+    color: #000000;
 }
 
 
@@ -44,20 +46,20 @@ a {
 .title {
     grid-area: title;
     text-align: center;
-    background-color: #1c2321;
+    background-color:  #FFD3C5;
 }
 
 .ban_image {
     grid-area: ban_image;
     text-align: center;
     height: 450px;
-    background-color: #a9b4c2;
+    background-color:  #FFD3C5;
 }
 
 .navbar {
     grid-area: navbar;
     text-align: center;
-    background-color: #5e6572;
+    background-color:  #ffab91;
     padding: 10px;
 }
 
@@ -69,7 +71,7 @@ a {
     grid-area: image_1;
     float: right;
     height: 350px;
-    background-color: #a9b4c2;
+    background-color:  #FFD3C5;
 
 }
 
@@ -77,13 +79,13 @@ a {
     grid-area: heading_1;
     float: left;
     text-align: center;
-    background-color:#5e6572;
+    background-color:  #ffab91;
 }
 
 .paragraph_1 {
     grid-area: paragraph_1;
     float: left;
-    background-color: #a9b4c2;
+    background-color:  #FFD3C5;
     font-size: large;
 }
 
@@ -91,26 +93,26 @@ a {
     grid-area: heading_2;
     float: right;
     text-align: center;
-    background-color: #5E6572;
+    background-color:  #ffab91;
 }
 
 .image_2 {
     grid-area: image_2;
     float: left;
     height: 400px;
-    background-color: #a9b4c2;
+    background-color:  #FFD3C5;
 }
 
 .paragraph_2 {
     grid-area: paragraph_2;
     float: right;
-    background-color: #a9b4c2;
+    background-color:  #FFD3C5;
     font-size: large;
 }
 
 .footer {
     grid-area: footer;
-    background-color: #5E6572;
+    background-color:  #ffab91;
     padding: 10px;
     text-align: center;
 }
