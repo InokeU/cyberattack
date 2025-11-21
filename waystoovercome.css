@@ -53,6 +53,7 @@ a {
 
 .navbar a {
     padding: 20px;
+    font-size: large;
 }
 
 .image_1 {
@@ -81,4 +82,5 @@ a {
     background-color: #ffab91;
     padding: 10px;
     text-align: center;
+    font-size: large;
 }
