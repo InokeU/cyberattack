@@ -58,6 +58,7 @@ a {
 
 .navbar a {
     padding: 20px;
+    font-size: large;
 }
 
 .video {
@@ -87,8 +88,22 @@ a {
     background-color:#ffab91;
 }
 
+.paragraph_2 {
+    grid-area: paragraph_2;
+}
+
+.paragraph_2 p {
+    text-align: center;
+    font-size: large;
+}
+
 .paragraph_3 {
     grid-area: paragraph_3;
+}
+
+.paragraph_3 p {
+    text-align: center;
+    font-size: large;
 }
 
 .links {
@@ -99,18 +114,10 @@ a {
     text-align: center;
 }
 
-.paragraph_2 p {
-    text-align: center;
-    font-size: large;
-}
-
-.paragraph_2 a {
-    padding: 10px;
-}
-
 .footer {
     grid-area: footer;
     background-color: #ffab91;
     padding: 10px;
     text-align: center;
+    font-size: large;
 }
