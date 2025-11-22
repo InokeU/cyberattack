@@ -79,6 +79,7 @@ a {
     grid-area: paragraph_1;
     float: left;
     background-color: #FFD3C5;
+    text-align: center;
     font-size: large;
 }
 
